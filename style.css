@@ -1,0 +1,25 @@
+@import "styles/firstBlock.css";
+
+* {
+    margin: unset;
+}
+
+a:link {
+    text-decoration: none;
+    color: unset;
+}
+
+a:visited {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+a:active {
+    text-decoration: none;
+    color: unset;
+}
