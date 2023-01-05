@@ -1,4 +1,4 @@
-header {
+.first-block-header {
     background: #FFFFFFFF;
     display: flex;
     margin-left: 15vw;
@@ -25,7 +25,7 @@ header {
 .sign-in {
     display: flex;
     margin-left: auto;
-    width: 270px;
+    width: 280px;
     align-items: center;
     justify-content: space-between;
 }
@@ -52,20 +52,18 @@ header {
     color: #FFFFFF;
 }
 
-.first-block {
+.first-block-content {
     border-top: 2px solid #D6D6D6;
-}
-
-.first-block img {
-    width: 100%;
-    position: absolute;
-    z-index: 0;
+    background-image: url("../images/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .first-block-info {
     width: 440px;
     height: 384px;
-    margin-top: 175px;
+    padding-top: 175px;
+    padding-bottom: 336px;
     z-index: 1;
     position: relative;
     display: flex;
@@ -88,6 +86,7 @@ header {
     font-weight: 400;
     font-size: 20px;
     color: #484848;
+    width: 430px;
 }
 
 .first-block-info button {

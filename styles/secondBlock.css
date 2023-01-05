@@ -1,0 +1,114 @@
+.second-block {
+    height: 1386px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 160px;
+}
+
+.second-block-header {
+    height: 327px;
+}
+
+.how-it-works {
+    font-family: 'Lato', system-ui;
+    font-weight: 600;
+    font-size: 24px;
+    color: #424242;
+}
+
+.second-block-header-text {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-block-header-text div:nth-child(1) {
+    width: 584px;
+    font-family: 'Georgia', system-ui;
+    font-weight: 700;
+    font-size: 50px;
+    color: #01996D;
+    line-height: 157%;
+}
+
+.second-block-header-text div:nth-child(2) {
+    width: 671px;
+    font-family: 'Lato', system-ui;
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+    line-height: 150%;
+}
+
+.second-block-points {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first-point, .second-point, .third-point {
+    width: 390px;
+}
+
+.second-point {
+    padding-top: 280px;
+}
+
+.third-point {
+    padding-top: 60px;
+}
+
+.point-header {
+    font-family: 'Georgia', system-ui;
+    position: relative;
+}
+
+.point-number {
+    font-weight: 400;
+    font-size: 150px;
+    text-align: left;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.point-number-text {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    left: 77px;
+    top: 110px;
+}
+
+.third-point .point-number-text {
+    left: 120px;
+}
+
+.point-text {
+    margin-top: 30px;
+    font-family: 'Lato', system-ui;
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+}
+
+.first-point .point-image {
+    margin-top: 60px;
+}
+
+.second-point .point-image {
+    margin-top: 37px;
+}
+
+.third-point .point-image {
+    margin-top: 48px;
+}
+
+.first-point .point-image {
+    position: relative;
+}
+
+.point-image img:nth-child(2) {
+    position: absolute;
+    top: 225px;
+    left: 205px;
+}

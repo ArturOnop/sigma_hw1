@@ -1,4 +1,5 @@
 @import "styles/firstBlock.css";
+@import "styles/secondBlock.css";
 
 * {
     margin: unset;
