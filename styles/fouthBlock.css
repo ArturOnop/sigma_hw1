@@ -1,6 +1,9 @@
 .fourth-block {
     margin: 120px 14vw 170px;
     height: 648px;
+}
+
+.fourth-block-content {
     display: flex;
 }
 
@@ -66,3 +69,36 @@
     margin-top: 40px;
 }
 
+@media screen and (max-width: 1800px) {
+    .fourth-block {
+        height: auto;
+        display: flex;
+        margin: 100px 5vw 100px;
+    }
+
+    .fourth-block-content {
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .fourth-block-images {
+        display: flex;
+        align-self: center;
+        height: 700px;
+        position: relative;
+    }
+
+    .fourth-block-info {
+        width: auto;
+        margin-left: 65px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fourth-block-info button {
+        align-self: center;
+        width: 630px;
+    }
+}

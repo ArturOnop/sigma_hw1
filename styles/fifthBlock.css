@@ -88,3 +88,32 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1800px) {
+    .fifth-block {
+        flex-direction: column;
+        padding: 95px 15vw 40px 15vw;
+        height: 600px;
+    }
+
+    .outbound {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .fifth-block {
+        height: 700px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .outbound {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 30px;
+    }
+}

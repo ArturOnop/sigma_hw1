@@ -4,10 +4,6 @@
     margin-top: 160px;
 }
 
-.second-block-header {
-    height: 327px;
-}
-
 .second-block-header-title {
     font-family: 'Lato', system-ui;
     font-weight: 600;
@@ -42,7 +38,6 @@
 .second-block-points {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .first-point, .second-point, .third-point {
@@ -110,4 +105,24 @@
     position: absolute;
     top: 225px;
     left: 205px;
+}
+
+@media screen and (max-width: 1800px) {
+    .second-block-header-text {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .second-block-points {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-point, .third-point {
+        padding-top: 0;
+    }
+
+    .second-block-header-text div:nth-child(1), .second-block-header-text div:nth-child(2) {
+        width: auto;
+    }
 }

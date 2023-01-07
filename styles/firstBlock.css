@@ -102,3 +102,19 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1800px) {
+    .first-block-header {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .nav {
+        margin-left: 3vw;
+    }
+
+    .nav ul {
+        width: 45vw;
+    }
+
+}

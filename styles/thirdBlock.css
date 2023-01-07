@@ -2,8 +2,14 @@
     margin-top: 50px;
     background: #245852;
     display: flex;
+}
+
+.third-block-content {
+    display: flex;
     justify-content: space-between;
-    padding: 230px 11vw 175px;
+    padding: 230px 0 175px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .third-block-info {
@@ -54,4 +60,37 @@
     position: absolute;
     left: 46%;
     top: 42%;
+}
+
+@media screen and (max-width: 1800px) {
+    .third-block-content {
+        flex-direction: column;
+        padding: 100px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .third-block-info {
+        margin-top: 0;
+    }
+
+    .third-block-video {
+        margin-left: 0;
+        margin-top: 50px;
+        width: 600px;
+        align-self: center;
+    }
+
+    .third-block-video img:nth-child(1) {
+        width: 580px;
+    }
+
+    .third-block-video img:nth-child(2) {
+        left: 42%;
+        top: 38%;
+    }
+
+    .third-block button {
+        width: 100%;
+    }
 }
