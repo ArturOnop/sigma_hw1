@@ -1,5 +1,8 @@
 @import "styles/firstBlock.css";
 @import "styles/secondBlock.css";
+@import "styles/thirdBlock.css";
+@import "styles/fouthBlock.css";
+@import "styles/fifthBlock.css";
 
 * {
     margin: unset;
