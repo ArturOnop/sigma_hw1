@@ -8,21 +8,21 @@
     height: 85px;
 }
 
-.nav {
+.first-block-header__nav {
     margin-left: 8vw;
     font-weight: 500;
     font-size: 20px;
     color: #292929;
 }
 
-.nav ul {
+.first-block-header__nav ul {
     display: flex;
     justify-content: space-between;
     width: 28vw;
     list-style: none;
 }
 
-.sign-in {
+.first-block-header__sign-in {
     display: flex;
     margin-left: auto;
     width: 280px;
@@ -30,13 +30,13 @@
     justify-content: space-between;
 }
 
-.sign-in div {
+.first-block-header__sign-in-link {
     font-weight: 500;
     font-size: 20px;
     color: #000000;
 }
 
-.sign-in button {
+.first-block-header__sign-in-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@
     background-size: cover;
 }
 
-.first-block-info {
+.first-block-content__info {
     width: 440px;
     height: 384px;
     padding-top: 175px;
@@ -73,14 +73,14 @@
     margin-right: 15vw;
 }
 
-.first-block-info-header {
+.first-block-content__header {
     font-family: 'Georgia', sans-serif;
     font-weight: 700;
     font-size: 65px;
     color: #01996D;
 }
 
-.first-block-info-text {
+.first-block-content__text {
     font-family: 'Lato', 'Lato', system-ui;
     font-style: normal;
     font-weight: 400;
@@ -89,7 +89,7 @@
     width: 430px;
 }
 
-.first-block-info button {
+.first-block-content__button {
     padding: 20px 50px;
     width: 240px;
     height: 65px;
@@ -109,11 +109,11 @@
         margin-right: 5vw;
     }
 
-    .nav {
+    .first-block-header__nav {
         margin-left: 3vw;
     }
 
-    .nav ul {
+    .first-block-header__nav ul {
         width: 45vw;
     }
 

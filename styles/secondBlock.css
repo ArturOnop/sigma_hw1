@@ -4,20 +4,20 @@
     margin-top: 160px;
 }
 
-.second-block-header-title {
+.second-block-header__title {
     font-family: 'Lato', system-ui;
     font-weight: 600;
     font-size: 24px;
     color: #424242;
 }
 
-.second-block-header-text {
+.second-block-header__text {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.second-block-header-text div:nth-child(1) {
+.second-block-header__text div:nth-child(1) {
     width: 584px;
     font-family: 'Georgia', system-ui;
     font-weight: 700;
@@ -26,7 +26,7 @@
     line-height: 157%;
 }
 
-.second-block-header-text div:nth-child(2) {
+.second-block-header__text div:nth-child(2) {
     width: 671px;
     font-family: 'Lato', system-ui;
     font-weight: 500;
@@ -108,9 +108,14 @@
 }
 
 @media screen and (max-width: 1800px) {
-    .second-block-header-text {
+    .second-block-header__text {
         flex-wrap: wrap;
         gap: 10px;
+    }
+
+    .second-block-header__text div:nth-child(1),
+    .second-block-header__text div:nth-child(2) {
+        width: 100%;
     }
 
     .second-block-points {
